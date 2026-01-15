@@ -21,7 +21,7 @@ gift_shop dut (
 always #5 clk = ~clk;
 
 initial begin
-$dumpfile("wave2.vcd");
+$dumpfile("wave.vcd");
 $dumpvars(0, advent2_tb);
 end
 
