@@ -1,4 +1,4 @@
-# Advent of Code 2025 – Hardware-Oriented Solutions (SystemVerilog)
+# Advent of Code 2025
 
 This repository contains my SystemVerilog implementations for Advent of Code 2025 – Day 1 and Day 2, written with a hardware/RTL mindset rather than a traditional software approach.
 
