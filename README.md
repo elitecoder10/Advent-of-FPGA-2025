@@ -30,7 +30,7 @@ Computed:
 
 Files :
 
-- day1_p1.sv and day1_p2.sv – RTL implementation for part 1 and part 2
+- day1_part1.sv and day1_part2.sv – RTL implementation for part 1 and part 2
 - day1_tb.sv – Testbench with puzzle input
 
 ## Day 2 – Invalid Product IDs 
@@ -57,7 +57,7 @@ My Approach
 
 Files
 
-- day2_p1.sv and day2_p2.sv – Top-level pipelined design
+- day2_part1.sv and day2_part2.sv – Top-level pipelined design
 - bin_to_bcd.sv – Binary to BCD conversion module
 - factorization.sv – Digit-length factorization
 - day2_tb.sv – Testbench
