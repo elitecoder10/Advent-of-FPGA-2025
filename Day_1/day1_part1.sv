@@ -12,6 +12,7 @@ logic [7:0] next_pos;
 
 assign dis_mod = dis % 7'd100;
 
+// COMBINATIONAL LOGIC
 always_comb begin
     if (!dirn) begin
     	next_pos = (position >= dis_mod) ? position - dis_mod :
@@ -22,6 +23,7 @@ always_comb begin
     end
 end
 
+// SEQUENTIAL LOGIC
 always_ff @(posedge clk) begin
     if (!rstn) begin
         position <= 7'd50;
