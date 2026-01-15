@@ -8,9 +8,9 @@ module safe_dial (
 
 logic [3:0]	  dis_quo;
 logic [31:0]  counter;
-logic [6:0] 	dis_mod;
-logic [6:0] 	position;
-logic [7:0] 	next_pos;
+logic [6:0]   dis_mod;
+logic [6:0]   position;
+logic [7:0]   next_pos;
 
 assign dis_quo = dis / 7'd100;
 assign dis_mod = dis % 7'd100;
