@@ -7,7 +7,10 @@ The focus is on:
 - Synthesizable design choices
 - Cycle-accurate verification using testbenches
 
-## Day 1 – Secret Entrance 🔐
+## Instructions
+Run using your preferred simulation or synthesis. I used Xilinx Vivado for all synthesis and simulations.
+
+## Day 1 – Secret Entrance 
 Problem Summary
 
 A safe dial starts at position 50 and rotates left or right on a circular scale 0–99 based on a sequence of instructions.
@@ -25,12 +28,12 @@ Computed:
 - Extra full rotations directly from the distance value
 - This results in a low-latency, single-cycle update design, well-suited for hardware.
 
-Files
+Files :
 
-- safe_dial.sv – RTL implementation
-- safe_dial_tb.sv – Testbench with puzzle input
+- day1_p1.sv and day1_p2.sv – RTL implementation for part 1 and part 2
+- day1_tb.sv – Testbench with puzzle input
 
-## Day 2 – Invalid Product IDs 🎁
+## Day 2 – Invalid Product IDs 
 Problem Summary
 
 Given large ranges of product IDs, identify invalid IDs:
@@ -54,7 +57,7 @@ My Approach
 
 Files
 
-- invalid_id_pipeline.sv – Top-level pipelined design
+- day2_p1.sv and day2_p2.sv – Top-level pipelined design
 - bin_to_bcd.sv – Binary to BCD conversion module
-- factorize_digits.sv – Digit-length factorization and pattern logic
-- invalid_id_tb.sv – Testbench
+- factorization.sv – Digit-length factorization
+- day2_tb.sv – Testbench
