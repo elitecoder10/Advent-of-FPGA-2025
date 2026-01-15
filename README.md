@@ -27,16 +27,16 @@ Computed:
 
 Files
 
-safe_dial.sv – RTL implementation
-safe_dial_tb.sv – Testbench with puzzle input
+- safe_dial.sv – RTL implementation
+- safe_dial_tb.sv – Testbench with puzzle input
 
 ## Day 2 – Invalid Product IDs 🎁
 Problem Summary
 
 Given large ranges of product IDs, identify invalid IDs:
 
-Part 1: Numbers made of a digit sequence repeated exactly twice
-Part 2: Numbers made of a digit sequence repeated two or more times
+- Part 1: Numbers made of a digit sequence repeated exactly twice
+- Part 2: Numbers made of a digit sequence repeated two or more times
 
 The goal is to sum all invalid IDs in the input ranges.
 
@@ -54,7 +54,7 @@ My Approach
 
 Files
 
-invalid_id_pipeline.sv – Top-level pipelined design
-bin_to_bcd.sv – Binary to BCD conversion module
-factorize_digits.sv – Digit-length factorization and pattern logic
-invalid_id_tb.sv – Testbench
+- invalid_id_pipeline.sv – Top-level pipelined design
+- bin_to_bcd.sv – Binary to BCD conversion module
+- factorize_digits.sv – Digit-length factorization and pattern logic
+- invalid_id_tb.sv – Testbench
